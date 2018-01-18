@@ -12,7 +12,7 @@ public class Application {
     private static final Logger logger = LoggerFactory.getLogger(Application.class);
 
     public static void main(String[] args) {
-	logger.info("Initializing task-manager");
+	logger.info("Iniciando aplicacion...");
         SpringApplication.run(Application.class, args);
     }
 
